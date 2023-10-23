@@ -8,8 +8,8 @@ import re
 from datetime import datetime
 
 
-data = pd.read_csv("DatosCovid.csv")
+data = pd.read_csv("CSV.csv")
 new_data = data
 
 new_data.dropna(inplace=True)
-new_data.to_csv("limpiezaCSV_.csv",index=False)
+new_data.to_csv("limpiezaCSV.csv",index=False)
